@@ -15,9 +15,9 @@ import org.springframework.messaging.MessageChannel;
 @EnableBinding({Processor.class})
 public class Application {
 
-    @Autowired
-    @Qualifier("output")
-    MessageChannel output;
+//    @Autowired
+//    @Qualifier("output")
+//    MessageChannel output;
 
 
 //    @Autowired
